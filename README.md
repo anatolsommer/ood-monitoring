@@ -19,7 +19,7 @@ Use `ood config -g token` to display your ood token.
 This will output something like `[3][0][5]` standing for:
 * running apps (`[3]`)
 * apps with state "fatal" (`[0]`)
-* errors within the last 10min (`[5]`)
+* errors (last 10 minutes) (`[5]`)
 
 
 ## License

@@ -1,7 +1,7 @@
 {
   "name": "ood-monitoring",
   "description": "Monitoring sensor for ood process manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Anatol Sommer <anatol@anatol.at>",
   "repository": {
@@ -18,9 +18,9 @@
 
   },
   "devDependencies": {
-    "mocha": "~2.1.0",
-    "istanbul": "^0.4.2",
-    "jshint": "^2.9.1"
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "istanbul": "^0.4.2"
   },
   "scripts": {
     "jshint": "jshint --show-non-errors lib/* && echo 'No errors!\n' ; set $?=0",
